@@ -1,0 +1,256 @@
+    nav ul li {
+        list-style: none;
+    }
+    
+    :root {
+        --texto: rgb(2, 92, 128);
+        --contenido:rgb(71, 71, 71);
+    }
+    nav {
+        max-width: 960px;
+        margin: 0px auto;
+        overflow: hidden;
+        border-bottom: 1px solid gray;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,eeedf2+50,dcd7e0+70,cccccc+100 */
+        background: #ffffff;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #ffffff 0%, #eeedf2 50%, #dcd7e0 70%, #cccccc 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ffffff 0%, #eeedf2 50%, #dcd7e0 70%, #cccccc 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ffffff 0%, #eeedf2 50%, #dcd7e0 70%, #cccccc 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .menu {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        float: left;
+    }
+    
+    .menu > li {
+        display: table-cell;
+        overflow: hidden;
+        width: 100%;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+    .menu li ul {
+        display:none ;
+        position: absolute;
+        min-width: 200px;
+    }
+    
+    .menu li a {
+        color: gray;
+        display: block;
+        font: Myriad Pro, Arial;
+        font-size: 12px;
+        padding: 10px 0;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+    .menu li a i {
+        padding-right: .8rem;
+        color: var(--texto);
+        font-size: 1.2rem;
+    }
+    
+    .menu li:hover {
+        border-right: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-bottom: none;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c9c9c9+0,e5e5e5+71,e5e5e5+71,e5e5e5+77,c9c9c9+100 */
+        background: #c9c9c9;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #c9c9c9 0%, #e5e5e5 71%, #e5e5e5 71%, #e5e5e5 77%, #c9c9c9 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #c9c9c9 0%, #e5e5e5 71%, #e5e5e5 71%, #e5e5e5 77%, #c9c9c9 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #c9c9c9 0%, #e5e5e5 71%, #e5e5e5 71%, #e5e5e5 77%, #c9c9c9 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#c9c9c9', GradientType=0);
+        /* IE6-9 */        
+    }
+    .menu li:hover > ul {
+        display: block;
+        background: rgba(128, 128, 128, 0.486);
+    }
+    .menu li:hover > ul li {
+        margin-bottom: .3rem;
+        box-shadow: 1px 1px 2px black;        
+    }
+    .menu li:hover > ul li a {
+        color: black;
+        font-weight: 600;
+    }
+    .menu li:hover > ul li a i {        
+        color: black; 
+        float: right;      
+    }
+    .menu li ul li {
+        position: relative;
+    }
+    .menu li ul li ul {
+        right: -198px;
+        top: 0px;
+    }
+    /* imagenes de actividad realizada */
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .imagenes img {
+        width: 33%;
+        height: auto;       
+    }
+    .imagenes3 img {
+        width: 100%;
+        height: auto;       
+    }
+
+    /* video de imagenes */
+
+    .video {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .icon-play3 {
+        position: relative;
+        float: left;
+        padding-top: 2px;
+        padding-left: 4px;
+    }
+    
+    .inicio1 {
+        width: 100%;
+        height: 30px;
+        padding-bottom: 5px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2cee2+0,f2f2f2+21,ffffff+100 */
+        background: #d2cee2;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #d2cee2 0%, #f2f2f2 21%, #ffffff 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #d2cee2 0%, #f2f2f2 21%, #ffffff 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #d2cee2 0%, #f2f2f2 21%, #ffffff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d2cee2', endColorstr='#ffffff', GradientType=0);
+        /* IE6-9 */
+        margin-top: 1px solid;
+    }
+    
+    .inicio1 ul {
+        list-style: none;
+    }
+    
+    .inicio1 ul li a {
+        float: left;
+        font-size: 10px;
+        padding: 5px 12px;
+        margin-top: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 2%;
+        text-decoration: none;
+        color: rgb(71, 69, 197);
+    }
+    
+    .imagen1 {
+        width: 25%;
+        height: 500px;
+        float: left;
+        margin: auto;
+        display: inline-block;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+    
+    .imagen1 img {
+        margin: auto;
+        padding-left: 10px;
+        margin-top: 1rem;
+        height: 100px;
+        width: 200px;
+    }
+    /* esta es la imagen principal del logo de UgG*/
+    .encabezado1 .imagen-logo {
+        margin: auto;
+        padding-left: 10px;        
+        height: 75%;
+        width: 45%;
+    }
+    
+    /* esta parte es del CONTENIDO PRINCIPAL*/
+    .contenido1 {
+        width: 74%;        
+        margin-left: 0%;
+        padding-left: 0%;
+        display: inline-block;
+        padding: 0%;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        font-size: 22px;
+        color: rgb(2, 92, 128);
+        padding-bottom: 8px;
+        width: 100%;
+    }
+    .contenido1 h2 {
+        color: var(--texto);
+        font-size: 1.5rem;
+    }
+    .contenido1 h3{
+        color: black;
+        font-size: 1.5rem;
+        padding: .5rem  .5rem;
+        background: rgba(230, 229, 229, 0.671);
+        box-shadow: 1px 3px 2px rgba(128, 128, 128, 0.486);
+        margin-top: 1rem;
+    }
+    .contenido1 h3 i {
+        background: rgba(89, 165, 89, 0.794) ;
+    }    
+    .contenido1 p {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1.5rem;
+        margin-top: 15px;
+        font-size: 15px;
+        width: auto;
+        color: var(--contenido);        
+    }
+    
+    
+    .contenido1 P span {
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+    }    
+        
+    footer {
+        background: rgb(216, 215, 215);
+        height: 250px;
+        margin-bottom: 25px;
+    }
+    
+    footer .piePagina {
+        width: 30%;
+        margin-left: 18px;
+        margin-top: 15px;
+    }
+    
+    footer .piePagina p {
+        font-size: 10px;
+        color: rgb(85, 85, 85);
+        padding-top: 8px;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }

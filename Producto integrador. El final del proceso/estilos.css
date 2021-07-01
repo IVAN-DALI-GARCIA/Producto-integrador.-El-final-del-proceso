@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+header,
+.main,
+footer {
+    max-width: 960px;
+    background: white;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .fecha1 {
+    background: white;
+    width: 550px;
+    margin: auto;
+    overflow: hidden;
+    padding-right: 15%;
+    padding-bottom: 11px;
+}
+
+header .fecha1 ul {
+    list-style: none;
+}
+
+header .fecha1 ul li {
+    float: right;
+    font-size: 10px;
+    padding: 2px;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 2%;
+}
+
+header .fecha1 ul li a {
+    text-decoration: none;
+    color: rgb(8, 74, 141);
+}
+
+header .fecha1 ul li a:hover {
+    color: lightseagreen;
+}
+
+header .encabezado1 {
+    background: white;    
+}
+
+header .encabezado1 .imagen1 {
+    width: 620px;
+    height: 82px;
+    float: left;
+    background: white;
+    
+}
+
+header .encabezado1 .buscador1 {
+    height: 82px;
+    background: white;
+    float: left;
+    width: 150px;
+    width: 300px;
+}
+
+header .encabezado1 .buscador1 input {
+    display: block;
+    margin-top: 8px;
+}
+
+.buscador2 {
+    background: white;
+    width: 135px;
+    height: 23px;
+    border: 1px solid gray;
+}
+
+.buscador3 {
+    background: gray;
+    width: 61px;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    margin-left: 25%;
+}
+
+.main {
+    background: white;
+    display: block;
+    max-width: 960;
+}
+
+.main .suv {
+    width: 100%;
+    max-width: 960px;
+    height: 76px;
+    background: rgb(28, 39, 143);
+    padding: 0px;
+    margin-top: 10px;
+    display: inline-block;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.main .suv p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    width: 94%;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.main .suv img {
+    width: 200px;
+    height: 26px;
+    float: right;
+}
